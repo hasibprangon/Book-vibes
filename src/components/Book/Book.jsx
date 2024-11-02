@@ -3,7 +3,7 @@ import React from 'react';
 const Book = ({ book }) => {
     const { bookName, author, image } = book;
     return (
-        <div className="card bg-gray-300 w-96 shadow-xl p-6 rounded-xl my-4">
+        <div className="card bg-gray-300 w-96 shadow-xl p-6 rounded-xl ">
             <figure className='bg-base-300 py-8 rounded-xl'>
                 <img
                     src={image}
